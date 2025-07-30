@@ -125,7 +125,7 @@ data:
     dbs_transfer=https://api.uat.anbesabank.et/api/v3/transfers
     rtgs=https://testfinpay.anbesabank.com/api/Transactions/SubmitTxn
     awach=http://172.16.100.17:8990/AWACH-INT/services
-    accountinfo=https://api.uat.anbesabank.et/dbs/banking/accounts/v1
+    accountinfo=https://api.uat.anbesabank.et/dbs/banking/accounts/v1/accounts
     verify_account_ips=http://10.1.7.5:8085/api/ips/verify-account?receiverBankName={uri.var.receiverBankName}&receiverAccountNo={uri.var.receiverAccountNumber}&channal=cbs
     push_payment_ips=http://10.1.7.5:8085/api/ips/push-payment
     generate_receipt=http://10.1.22.198:3060/generate-receipt
