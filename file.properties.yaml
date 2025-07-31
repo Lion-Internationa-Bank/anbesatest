@@ -122,7 +122,7 @@ data:
     ethswitch=http://192.168.20.5:7003/webgate/SVWS/Transfer
     telebirr=http://10.180.79.13:30001/payment/services/APIRequestMgrService
     mpesawallet=https://mi-uat.anbesabank.et/mpesatransfer/mpesatransfer
-    dbs_transfer=https://api.uat.anbesabank.et/api/v3/transfers
+    dbs_transfer=https://api.uat.anbesabank.et/api/v3/transfers?simulationIndicator={uri.var.simulationIndicator}
     rtgs=https://testfinpay.anbesabank.com/api/Transactions/SubmitTxn
     awach=http://172.16.100.17:8990/AWACH-INT/services
     accountinfo=https://api.uat.anbesabank.et/dbs/banking/accounts/v1/accounts
