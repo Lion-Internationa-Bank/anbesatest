@@ -116,12 +116,13 @@ data:
     telebirr_merchant_transaction_request_ep=http://10.180.79.13:30001/payment/services/SYNCAPIRequestMgrService
 
     # Transfer Dispatcher endpoints
-    getECInvoiceListURL=https://10.1.7.85:8095/getECInvoiceList
-    getECInvoiceDetailURL=https://10.1.7.85:8095/getECInvoiceDetail
-    createECPaymentV2URL=https://10.1.7.85:8095/createECPaymentV2
+     #getECInvoiceListURL=https://10.1.7.85:8095/getECInvoiceList
+     #getECInvoiceDetailURL=https://10.1.7.85:8095/getECInvoiceDetail
+     #createECPaymentV2URL=https://10.1.7.85:8095/createECPaymentV2
     ethswitch=http://192.168.20.5:7003/webgate/SVWS/Transfer
     telebirr=http://10.180.79.13:30001/payment/services/APIRequestMgrService
-    mpesawallet=https://mi-uat.anbesabank.et/mpesatransfer/mpesatransfer
+    mpesawallet=https://apisandbox.safaricom.et/bank-to-mpesa/api/v1/transfer
+    mpesatoken=https://apisandbox.safaricom.et/bank-to-mpesa/api/v1/transfer
     dbs_transfer=https://api.uat.anbesabank.et/api/v3/transfers?simulationIndicator={uri.var.simulationIndicator}
     rtgs=https://testfinpay.anbesabank.com/api/Transactions/SubmitTxn
     awach=http://172.16.100.17:8990/AWACH-INT/services
@@ -132,6 +133,5 @@ data:
     rtgsgetToken=https://testfinpay.anbesabank.com/api/Login/GetToken
 
    
-
 
 
