@@ -106,6 +106,7 @@ data:
     # mpesa credentials
     mpesa_client_username=jgdPJACy5TPGniKsmxahZgjYsfCn9ILI2LZanmk5kukRycGd
     mpesa_initiator_username=testapi
+    mpesa_validate_trustfund_account_ep=https://localhost:8253/data-service/validate-trustfund-account
 
     # sftp server details
     sftp_host_ip=10.1.7.117
@@ -133,5 +134,6 @@ data:
     rtgsgetToken=https://testfinpay.anbesabank.com/api/Login/GetToken
 
    
+
 
 
